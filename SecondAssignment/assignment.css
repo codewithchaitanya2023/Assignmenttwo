@@ -1,0 +1,66 @@
+body {
+  background-color: aqua;
+}
+.header {
+  background-color: rgb(27, 3, 12);
+  font-size: larger;
+  font-weight: 500;
+  border: 2px solid;
+  color: rgb(248, 243, 243);
+  text-align: center;
+
+  height: 40px;
+  margin-top: 5px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+  background: wheat;
+  margin-bottom: 2px;
+  margin-left: 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+input {
+  height: 30px;
+  width: 300px;
+  margin-left: 12px;
+  margin-top: 5px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.content label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+.contactHeader {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-left: 12px;
+}
+.list {
+  margin-top: -25px;
+}
+
+.add {
+  margin-left: 12px;
+}
